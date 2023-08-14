@@ -17,16 +17,16 @@ h1 {
 }
 
 .intro_bg{
-    width: 93%;
-    height:640px;
-    background-image:url("image/123.avif");
-    background-position: left;
+    width: 85%;
+    height:650px;
+    background-image:url("image/123.avif"),url("../Hompage/image/home3.avif");
+    background-position: left, right;
     margin-left: 7%;
-    background-size: 50%;
+    background-size: 50%, 42.5%;
     background-repeat:no-repeat;
     
-    
 }
+
 
 .header{
   display:flex;
@@ -77,6 +77,20 @@ h1 {
   color: black;
 }
 
+.second_nav {
+  font-size: 15px;
+  display: flex;
+  margin-top: 15px;  
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+}
+.second_nav > li {
+  margin-left: 10px;
+  text-align: center;
+  width:calc(800px - 320px);
+  margin-bottom: 10px;
+}
+
 .front_nav{
   display:flex;
   justify-content: flex-start;
@@ -86,7 +100,7 @@ h1 {
 }
 
 .front_nav > li{
-  margin-left: 20px;
+  margin-left: 18px;
 }
 
 
@@ -98,7 +112,7 @@ h1 {
 
 .intro_text{
   width:30%;
-  margin-top: 28.5%;
+  margin-top: 27.5%;
   margin-left: 10%;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.15);
@@ -107,10 +121,30 @@ h1 {
 .intro_text > h1,
 .intro_text > h4{
   color:white;
+
+}
+.intro_text > h1 {
+  font-size: 23.2px
+}
+.intro_text2{
+  width:30%;
+  margin-top: -3.9%;
+  margin-left: 64.5%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
+.intro_text2 > h1,
+.intro_text2 > h4{
+  color:white;
+}
+
+.intro_text2 > h1{
+  font-size: 23.2px;
+}
 .amount{
   display:flex;
+  margin-top: -5%;
   height: 50px;
   justify-content: center;
   align-items: center;
@@ -127,7 +161,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 30%;
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.2);
   margin: 70px;
 
